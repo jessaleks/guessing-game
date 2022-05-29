@@ -4,7 +4,7 @@ use std::{error, io};
 fn main() {
     println!("Guess the number");
     let actual_number: i32 = (random::<f32>() * 10.0).round() as i32;
-    println!("{}", actual_number);
+
     let mut flag = false;
     while flag == false {
         println!("Please input your guess");
